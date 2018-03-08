@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		876CC048203E3A0F00D136BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 876CC047203E3A0F00D136BF /* Default-568h@2x.png */; };
+		876CC04A203E3B1D00D136BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876CC049203E3B1D00D136BF /* Main.storyboard */; };
+		876CC069203E3B4500D136BF /* SponsorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CC067203E3B4500D136BF /* SponsorTableViewCell.swift */; };
+		876CC06A203E3B4500D136BF /* TalkListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CC068203E3B4500D136BF /* TalkListTableViewCell.swift */; };
+		876CC070203E3B6F00D136BF /* TalkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CC06C203E3B6E00D136BF /* TalkListViewController.swift */; };
+		876CC071203E3B6F00D136BF /* SponsorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CC06D203E3B6E00D136BF /* SponsorsViewController.swift */; };
+		876CC072203E3B6F00D136BF /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CC06E203E3B6F00D136BF /* EventDetailViewController.swift */; };
+		876CC073203E3B6F00D136BF /* MyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CC06F203E3B6F00D136BF /* MyListViewController.swift */; };
+		8770F342203E373000AD654A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770F341203E373000AD654A /* Constants.swift */; };
 		87C56247203A378E00908AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C56246203A378E00908AC8 /* AppDelegate.swift */; };
-		87C56249203A378E00908AC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C56248203A378E00908AC8 /* ViewController.swift */; };
-		87C5624C203A378E00908AC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C5624A203A378E00908AC8 /* Main.storyboard */; };
 		87C5624E203A378E00908AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C5624D203A378E00908AC8 /* Assets.xcassets */; };
 		87C56251203A378E00908AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C5624F203A378E00908AC8 /* LaunchScreen.storyboard */; };
+		87C56259203A37F300908AC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87C56258203A37F300908AC8 /* GoogleService-Info.plist */; };
+		8F18553EF7013B7BCC34DFA4 /* Pods_DvCon_2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A682D3670566AFDE59A58FF /* Pods_DvCon_2018.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B586721EBC57770271B3465 /* Pods-DvCon 2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DvCon 2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-DvCon 2018/Pods-DvCon 2018.release.xcconfig"; sourceTree = "<group>"; };
+		4A682D3670566AFDE59A58FF /* Pods_DvCon_2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DvCon_2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		876CC047203E3A0F00D136BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		876CC049203E3B1D00D136BF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		876CC067203E3B4500D136BF /* SponsorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorTableViewCell.swift; sourceTree = "<group>"; };
+		876CC068203E3B4500D136BF /* TalkListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkListTableViewCell.swift; sourceTree = "<group>"; };
+		876CC06C203E3B6E00D136BF /* TalkListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkListViewController.swift; sourceTree = "<group>"; };
+		876CC06D203E3B6E00D136BF /* SponsorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorsViewController.swift; sourceTree = "<group>"; };
+		876CC06E203E3B6F00D136BF /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		876CC06F203E3B6F00D136BF /* MyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListViewController.swift; sourceTree = "<group>"; };
+		8770F341203E373000AD654A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		87C56243203A378E00908AC8 /* DvCon 2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DvCon 2018.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C56246203A378E00908AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87C56248203A378E00908AC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		87C5624B203A378E00908AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87C5624D203A378E00908AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87C56250203A378E00908AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87C56252203A378E00908AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C56258203A37F300908AC8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B7C616C108748A1942DC2FD5 /* Pods-DvCon 2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DvCon 2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DvCon 2018/Pods-DvCon 2018.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F18553EF7013B7BCC34DFA4 /* Pods_DvCon_2018.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44D862F620C7BC365809489D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A682D3670566AFDE59A58FF /* Pods_DvCon_2018.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		876CC044203E392E00D136BF /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				87C56246203A378E00908AC8 /* AppDelegate.swift */,
+				8770F341203E373000AD654A /* Constants.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		876CC045203E396700D136BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				876CC047203E3A0F00D136BF /* Default-568h@2x.png */,
+				87C5624D203A378E00908AC8 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		876CC046203E398300D136BF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				876CC049203E3B1D00D136BF /* Main.storyboard */,
+				87C5624F203A378E00908AC8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		876CC06B203E3B5600D136BF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				876CC067203E3B4500D136BF /* SponsorTableViewCell.swift */,
+				876CC068203E3B4500D136BF /* TalkListTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		876CC074203E3B7600D136BF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				876CC06E203E3B6F00D136BF /* EventDetailViewController.swift */,
+				876CC06F203E3B6F00D136BF /* MyListViewController.swift */,
+				876CC06D203E3B6E00D136BF /* SponsorsViewController.swift */,
+				876CC06C203E3B6E00D136BF /* TalkListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		87C5623A203A378E00908AC8 = {
 			isa = PBXGroup;
 			children = (
 				87C56245203A378E00908AC8 /* DvCon 2018 */,
 				87C56244203A378E00908AC8 /* Products */,
+				8A5B0F8EED3863D6A31DF811 /* Pods */,
+				44D862F620C7BC365809489D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +132,24 @@
 		87C56245203A378E00908AC8 /* DvCon 2018 */ = {
 			isa = PBXGroup;
 			children = (
-				87C56246203A378E00908AC8 /* AppDelegate.swift */,
-				87C56248203A378E00908AC8 /* ViewController.swift */,
-				87C5624A203A378E00908AC8 /* Main.storyboard */,
-				87C5624D203A378E00908AC8 /* Assets.xcassets */,
-				87C5624F203A378E00908AC8 /* LaunchScreen.storyboard */,
+				876CC044203E392E00D136BF /* Setup */,
+				876CC074203E3B7600D136BF /* ViewControllers */,
+				876CC06B203E3B5600D136BF /* Cells */,
 				87C56252203A378E00908AC8 /* Info.plist */,
+				87C56258203A37F300908AC8 /* GoogleService-Info.plist */,
+				876CC046203E398300D136BF /* Storyboards */,
+				876CC045203E396700D136BF /* Supporting Files */,
 			);
 			path = "DvCon 2018";
+			sourceTree = "<group>";
+		};
+		8A5B0F8EED3863D6A31DF811 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7C616C108748A1942DC2FD5 /* Pods-DvCon 2018.debug.xcconfig */,
+				2B586721EBC57770271B3465 /* Pods-DvCon 2018.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87C56255203A378E00908AC8 /* Build configuration list for PBXNativeTarget "DvCon 2018" */;
 			buildPhases = (
+				23AF2938A4C8AEB6BC6887C4 /* [CP] Check Pods Manifest.lock */,
 				87C5623F203A378E00908AC8 /* Sources */,
 				87C56240203A378E00908AC8 /* Frameworks */,
 				87C56241203A378E00908AC8 /* Resources */,
+				FC0E160903D1B6615795F337 /* [CP] Embed Pods Frameworks */,
+				D82D552C0A7F4D0599D7544B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +187,7 @@
 				TargetAttributes = {
 					87C56242203A378E00908AC8 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -124,34 +215,94 @@
 			buildActionMask = 2147483647;
 			files = (
 				87C56251203A378E00908AC8 /* LaunchScreen.storyboard in Resources */,
+				876CC04A203E3B1D00D136BF /* Main.storyboard in Resources */,
+				87C56259203A37F300908AC8 /* GoogleService-Info.plist in Resources */,
 				87C5624E203A378E00908AC8 /* Assets.xcassets in Resources */,
-				87C5624C203A378E00908AC8 /* Main.storyboard in Resources */,
+				876CC048203E3A0F00D136BF /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23AF2938A4C8AEB6BC6887C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DvCon 2018-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D82D552C0A7F4D0599D7544B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DvCon 2018/Pods-DvCon 2018-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0E160903D1B6615795F337 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DvCon 2018/Pods-DvCon 2018-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DvCon 2018/Pods-DvCon 2018-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		87C5623F203A378E00908AC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87C56249203A378E00908AC8 /* ViewController.swift in Sources */,
+				876CC073203E3B6F00D136BF /* MyListViewController.swift in Sources */,
+				876CC069203E3B4500D136BF /* SponsorTableViewCell.swift in Sources */,
+				876CC06A203E3B4500D136BF /* TalkListTableViewCell.swift in Sources */,
 				87C56247203A378E00908AC8 /* AppDelegate.swift in Sources */,
+				876CC070203E3B6F00D136BF /* TalkListViewController.swift in Sources */,
+				8770F342203E373000AD654A /* Constants.swift in Sources */,
+				876CC072203E3B6F00D136BF /* EventDetailViewController.swift in Sources */,
+				876CC071203E3B6F00D136BF /* SponsorsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		87C5624A203A378E00908AC8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87C5624B203A378E00908AC8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		87C5624F203A378E00908AC8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,31 +423,41 @@
 		};
 		87C56256203A378E00908AC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C616C108748A1942DC2FD5 /* Pods-DvCon 2018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = SPT6NYU373;
 				INFOPLIST_FILE = "DvCon 2018/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "deep.DvCon-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "615df6f4-bfc5-4fd2-b4bf-3f02644a04fd";
+				PROVISIONING_PROFILE_SPECIFIER = "DvCon2018-Profile";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		87C56257203A378E00908AC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B586721EBC57770271B3465 /* Pods-DvCon 2018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = SPT6NYU373;
 				INFOPLIST_FILE = "DvCon 2018/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "deep.DvCon-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9de57e14-4974-434c-bc3f-e08b5b30815a";
+				PROVISIONING_PROFILE_SPECIFIER = "DvCon2018-Profile";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
